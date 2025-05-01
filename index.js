@@ -111,7 +111,7 @@ function Course(title,lessons,completedLessons){
     this.completedLessons = completedLessons
     this.markComplete = function(lesson){
             this.completedLessons.push(lesson)
-            return course.completedLessons
+            return this.completedLessons
         }
     
     this.getProgress = function(){
